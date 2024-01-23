@@ -1,0 +1,409 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+body{
+    background-color: rgb(235, 235, 235);
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family:'Poppins', sans-serif;
+    margin: 0;
+
+
+}
+.boarder{
+    padding-top: 30px;
+}
+.board{
+    background-color:white ;
+    width: 650px;
+    height:550px;
+    border-radius: 50px;   
+    display: flex;
+  
+}
+form{
+    display: flex;
+    gap: 50px;
+    padding-left: 130px;
+    padding-top: 20px;
+}
+input{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px rgb(194, 194, 194) solid;
+    padding-left: 20px;
+    font-family:'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+  
+}
+.red-input{
+    border: 2px red solid;
+}
+h6{
+    color: rgb(83, 83, 83);
+    letter-spacing: 5px;
+}
+
+i{
+    font-size: 30px;
+    color: rgb(255, 255, 255);  
+}
+button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: purple;
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: right;
+    margin-top: 30px;
+}
+button:hover, button:focus {
+    background-color: rgb(153, 0, 153);
+}
+.text{
+    color: rgb(255, 0, 0);
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 5px;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.text1{
+    color: red;
+    font-weight: 300;
+    font-size: 9px;
+    font-style: italic;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    display: none;
+}
+.text2{
+    color: red;
+    font-weight: 300;
+    font-size: 9px;
+    font-style: italic;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    display: none;
+}
+.text3{
+    color: red;
+    font-weight: 300;
+    font-size: 9px;
+    font-style: italic;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    display: none;
+}
+h1{
+    color: purple;
+    font-size: 75px;
+}
+h2{
+    color: black;
+    font-size: 72px;
+}
+.one{
+    display: flex;
+    padding-left: 130px;
+    padding-top: 90px;
+}
+.two{
+    display: flex;
+    padding-left: 130px;
+    
+}
+.three{
+    display: flex;
+    padding-left: 130px;
+}
+.result{
+    line-height: 90px;
+}
+@media (max-width:500px){
+    body{
+        background-color: rgb(235, 235, 235);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        font-family:'Poppins', sans-serif;
+        margin: 0;
+        padding-top: 90px;
+        padding-left: 20px;
+    }
+    .board{
+        background-color:white ;
+        width: 350px;
+        height:500px;
+        border-radius: 50px;   
+        display: flex;
+       
+    }
+    form{
+        display: flex;
+        gap: 20px;
+        padding-left: 30px;
+        padding-top: 20px;
+    }
+    
+    input{
+        width: 70px;
+        height: 50px;
+        border-radius: 5px;
+        border: 2px rgb(194, 194, 194) solid;
+        padding-left: 5px;
+        font-family:'Poppins', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .red-input{
+        border: 2px red solid;
+    }
+    h6{
+        color: rgb(83, 83, 83);
+        letter-spacing: 5px;
+    }
+    
+    i{
+        font-size: 30px;
+        color: rgb(255, 255, 255);  
+    }
+    button{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: none;
+        background-color: purple;
+        cursor: pointer;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        float: left;
+        margin-inline: 260px;
+        margin-top: 30px;
+    }
+    button:hover, button:focus {
+        background-color: rgb(153, 0, 153);
+    }
+    .text{
+        color: rgb(255, 0, 0);
+        font-weight: 600;
+        font-size: 11px;
+        letter-spacing: 5px;
+        align-items: center;
+        justify-content: center;
+        display: none;
+    }
+    .text1{
+        color: red;
+        font-weight: 600;
+        font-size: 11px;
+        font-style: italic;
+        align-items: center;
+        justify-content: center;
+        font-weight: 400;
+        display: none;
+    }
+    .text2{
+        color: red;
+        font-weight: 600;
+        font-size: 11px;
+        font-style: italic;
+        align-items: center;
+        justify-content: center;
+        font-weight: 400;
+        display: none;
+    }
+    .text3{
+        color: red;
+        font-weight: 600;
+        font-size: 11px;
+        font-style: italic;
+        align-items: center;
+        justify-content: center;
+        font-weight: 400;
+        display: none;
+    }
+    h1{
+        color: purple;
+        font-size: 55px;
+    }
+    h2{
+        color: black;
+        font-size: 52px;
+    }
+    .one{
+        display: flex;
+        padding-left: 30px;
+        padding-top: 0px;
+    }
+    .two{
+        display: flex;
+        padding-left: 30px;
+        
+    }
+    .three{
+        display: flex;
+        padding-left: 30px;
+    }
+    .result{
+        line-height: 90px;
+    }
+}
+@media (max-width:400px){
+    .board{
+        background-color:white ;
+        width: 325px;
+        height:500px;
+        border-radius: 50px;   
+        display: flex;
+       
+    }
+}
+@media (max-width:353px){
+    .board{
+        background-color:white ;
+        width: 355px;
+        height:500px;
+        border-radius: 50px;   
+        display: flex;
+       
+    }
+}
+@media (max-width:380px){
+    body{
+        background-color: rgb(235, 235, 235);
+        height: 100vh;
+        font-family:'Poppins', sans-serif;
+        padding-top: 90px;
+        padding-left: 20px;
+    }
+    .board{
+        background-color:rgb(255, 255, 255) ;
+        width: 290px;
+        height:430px;
+        border-radius: 50px;   
+        display: flex;
+       
+    }
+    form{
+        display: flex;
+        gap: 20px;
+        padding-left: 30px;
+        padding-top: 20px;
+    }
+    
+    input{
+        width: 60px;
+        height: 60px;
+        border-radius: 5px;
+        border: 2px rgb(194, 194, 194) solid;
+        padding-left: 5px;
+        font-family:'Poppins', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .red-input{
+        border: 2px red solid;
+    }
+    h6{
+        color: rgb(83, 83, 83);
+        letter-spacing: 5px;
+    }
+    
+    i{
+        font-size: 30px;
+        color: rgb(255, 255, 255);  
+    }
+    button{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: none;
+        background-color: purple;
+        cursor: pointer;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        float: left;
+        margin-inline: 210px;
+        margin-top: 30px;
+    }
+    button:hover, button:focus {
+        background-color: rgb(153, 0, 153);
+    }
+    .text{
+        color: rgb(255, 0, 0);
+        font-weight: 200;
+        font-size: 6px;
+        letter-spacing: 2px;
+        align-items: center;
+        justify-content: center;
+        display: none;
+    }
+    .text1{
+        color: red;
+        font-weight: 200;
+        font-size: 6px;
+        font-style: italic;
+        align-items: center;
+        justify-content: center;
+        font-weight: 400;
+        display: none;
+    }
+    .text2{
+        color: red;
+        font-weight: 200;
+        font-size: 6px;
+        font-style: italic;
+        align-items: center;
+        justify-content: center;
+        font-weight: 400;
+        display: none;
+    }
+    .text3{
+        color: red;
+        font-weight: 200;
+        font-size: 6px;
+        font-style: italic;
+        align-items: center;
+        justify-content: center;
+        font-weight: 400;
+        display: none;
+    }
+    h1{
+        color: purple;
+        font-size: 45px;
+    }
+    h2{
+        color: black;
+        font-size: 42px;
+    }
+    .one{
+        display: flex;
+        padding-left: 30px;
+
+    }
+    .two{
+        display: flex;
+        padding-left: 30px;
+        
+    }
+    .three{
+        display: flex;
+        padding-left: 30px;
+    }
+    .result{
+        line-height: 70px;
+    }
+}
